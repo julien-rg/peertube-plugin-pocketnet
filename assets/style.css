@@ -1,0 +1,25 @@
+/* Change the header logo in the PeerTube instance UI */
+#custom-css .icon.icon-logo {
+  background: url('/plugins/pocketnet/0.0.2/static/images/pocketnet-logo.png') no-repeat;
+  width: 45px;
+  margin-right: 5px;
+  height: 32px;
+}
+
+/* Hide all the buttons/text we don't want in the embed player */
+#custom-css .vjs-peertube-displayed .icon.icon-download,
+#custom-css .vjs-peertube-displayed .download-speed-text,
+#custom-css .vjs-peertube-displayed .icon.icon-upload,
+#custom-css .vjs-peertube-displayed .upload-speed-text,
+#custom-css .vjs-peertube-displayed .peers-number,
+#custom-css .vjs-peertube-displayed .peers-text,
+#custom-css .vjs-fullscreen-control.vjs-control.vjs-button,
+#custom-css .vjs-dock-text,
+#custom-css .vjs-peertube-link {
+  display: none;
+}
+
+/* Overlay for the Pocketnet logo inside the video player */
+#custom-css .pocketnet-logo-video-player {
+  display: flex;
+}

@@ -3,7 +3,9 @@ const path = require("path")
 const EsmWebpackPlugin = require("@purtuga/esm-webpack-plugin")
 
 const clientFiles = [
-  'common-client-plugin.js'
+  'common-client-plugin.js',
+  'embed-client-plugin.js',
+  'video-watch-client-plugin.js'
 ]
 
 let config = clientFiles.map(f => ({
@@ -14,7 +16,10 @@ let config = clientFiles.map(f => ({
     library: "script",
     libraryTarget: "var"
   },
-  plugins: [ new EsmWebpackPlugin() ]
+  plugins: [ new EsmWebpackPlugin() ],
+  externals: {
+    'video.js': 'window.videojs'
+  }
 }))
 
 module.exports = config
