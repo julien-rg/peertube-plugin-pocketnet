@@ -23,3 +23,12 @@
 #custom-css .pocketnet-logo-video-player {
   display: flex;
 }
+
+/* Style the play button */
+body {
+  --embedBigPlayBackgroundColor: rgb(0 195 255 / 80%);
+  --mainColor: #00c3ff;
+  --mainColorLighter: #32cfff;
+  --mainColorLightest: #6adcff;
+  --mainHoverColor: #00b0e6;
+}
