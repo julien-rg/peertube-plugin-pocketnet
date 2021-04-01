@@ -1,7 +1,7 @@
 {
   "name": "peertube-plugin-pocketnet",
   "description": "PeerTube plugin for Pocketnet",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Julien",
   "bugs": "https://github.com/julien-regnier/peertube-plugin-pocketnet/issues",
   "clientScripts": [
