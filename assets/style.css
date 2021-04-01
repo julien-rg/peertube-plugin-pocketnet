@@ -1,7 +1,13 @@
 /* Change the header logo in the PeerTube instance UI */
 #custom-css .icon.icon-logo {
-  background: url('/plugins/pocketnet/0.0.3/static/images/pocketnet-logo.png') no-repeat;
+  background: url('/plugins/pocketnet/0.0.6/static/images/pocketnet-logo.png') no-repeat;
   width: 45px;
+  margin-right: 5px;
+  height: 32px;
+}
+#custom-css .icon.icon-full-logo-transparent {
+  background: url('/plugins/pocketnet/0.0.6/static/images/pocketnet-full-logo-transparent.png') no-repeat;
+  width: 225px;
   margin-right: 5px;
   height: 32px;
 }
