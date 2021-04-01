@@ -10,6 +10,7 @@
   width: 212px;
   margin-right: 5px;
   height: 32px;
+  display: block;
 }
 
 /* Hide all the buttons/text we don't want in the embed player */
@@ -27,7 +28,7 @@
 
 /* Overlay for the Pocketnet logo inside the video player */
 #custom-css .pocketnet-logo-video-player {
-  display: flex;
+  max-width: 100%;
 }
 
 /* Style the play button */

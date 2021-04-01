@@ -1,13 +1,15 @@
 export function buildPlayer (video, player, videojs) {
     window.videojs = videojs
     require('videojs-overlay')
-    console.log("Julien adding overlay")
+    // Disable context menu
+    if (player.contextmenuUI)
+        player.contextmenuUI({ content: [] })
+    // Add the Pocketnet logo in the bottom right corner of the video
     player.overlay({
         overlays: [{
             content: '<span class="icon icon-full-logo-transparent"></span>',
             align: 'bottom-right',
             start: 0,
-            end: 'ended',
             showBackground: false,
             class: 'pocketnet-logo-video-player'
         }]
