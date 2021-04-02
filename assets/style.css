@@ -2,13 +2,14 @@
 #custom-css .icon.icon-logo {
   background: url('/plugins/pocketnet/0.0.7/static/images/pocketnet-logo.png') no-repeat;
   width: 45px;
-  margin-right: 5px;
+  margin-right: 10px;
   height: 32px;
 }
-#custom-css .icon.icon-full-logo-transparent {
+#custom-css .pocketnet-logo-video-player .icon.icon-full-logo-transparent {
   background: url('/plugins/pocketnet/0.0.7/static/images/pocketnet-full-logo-transparent.png') no-repeat;
   width: 212px;
-  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
   height: 32px;
   display: block;
 }

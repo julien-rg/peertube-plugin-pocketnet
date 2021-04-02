@@ -8,7 +8,7 @@ export function buildPlayer (video, player, videojs) {
     player.overlay({
         overlays: [{
             content: '<span class="icon icon-full-logo-transparent"></span>',
-            align: 'bottom-right',
+            align: 'top-left',
             start: 0,
             showBackground: false,
             class: 'pocketnet-logo-video-player'
